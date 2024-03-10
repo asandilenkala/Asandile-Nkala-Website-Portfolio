@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #081b29;
+    background-image: url("Images/wallpaper_animated.gif");
+    background-attachment: fixed; 
+    color:white;
+} 
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:rgb(15, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-size: 25px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+/*=============================================*/
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    align-items: end;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+/*=============================================*/
+.home{
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.home-content h3{
+    color:aqua;
+}
+/*=============================================*/
+.btn-box a{
+    color: white;
+    margin-left: 15px;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    colour:#00abf0;
+}
+
+.btn-box a:hover{
+    color: aqua;
+}
+/*=============================================*/
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.home-image{
+    padding: 5rem 2rem 2rem 2rem;
+}
+
+.home-image img{
+   height: 350px;
+   border-radius:0.5rem;
+   width: 250px;
+
+}
+/*=============================================*/
+.about {
+    height: 70vh;
+    display:flow-root;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.about-content {
+    max-width: 700px;
+}
+
+.about-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.UCT{
+    max-width: 550px;
+}
+
+.UCT_Course{
+    float: right;
+    
+}
+
+.HyperionDev{
+    max-width: 370px;
+}
+
+.HyperionDev_Course{
+    float: right;
+}
+
+
+/*=============================================*/
+.skills {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.skill-content p p{
+    max-width: 600px;
+}
+
+.skill-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo-images{
+    padding: 1rem 6rem 2rem 2rem;
+    float: right;
+}
+
+.logo-images img{
+   height: 100px;
+   border-radius:0.5rem;
+   width: 100px;
+}
+/*=============================================*/
+.portfolio {
+    height: 50vh;
+    display:flow-root;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.portfolio-content {
+    max-width: 700px;
+}
+
+.portfolio-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.portfolio-content ul{
+    align-items: center;
+}
+
+/*=============================================*/
+.contacts {
+    /*position:fixed;*/
+    height: 20vh;
+    display:flow-root;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.contacts-logos{
+    padding: 3rem 5rem 2rem 2rem;
+}
+
+.contacts-logos img{
+    height: 50px;
+    border-radius:0.5rem;
+    width: 50px;
+}
