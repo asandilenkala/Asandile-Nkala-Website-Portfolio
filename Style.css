@@ -207,7 +207,8 @@ body{
 }
 @media screen and (max-width: 579px){
     height: 70vh;
-    h1{
+    home-content h1{
         font-size:36px
+        line-lenght:50px
     }
 }
